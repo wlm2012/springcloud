@@ -8,10 +8,10 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
-    <artifactId>App</artifactId>
+    <artifactId>webMagic</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>App</name>
-    <description>App</description>
+    <name>webMagic</name>
+    <description>webMagic</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -24,7 +24,6 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
-
     </dependencies>
 
     <build>

@@ -1,4 +1,4 @@
-package com.study.app;
+package com.study.webmagic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,10 +8,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableDiscoveryClient
 @SpringBootApplication
 @EnableFeignClients
-public class AppApplication {
+public class WebMagicApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AppApplication.class, args);
+        SpringApplication.run(WebMagicApplication.class, args);
     }
 
 }
